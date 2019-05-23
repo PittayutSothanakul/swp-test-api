@@ -1,0 +1,24 @@
+{
+  "name": "test-twitter-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "express": "^4.17.0",
+    "firebase": "^6.0.2",
+    "firebase-admin": "^7.4.0",
+    "moment": "^2.24.0",
+    "plotly": "^1.0.6",
+    "pug": "^2.0.3",
+    "socket.io": "^2.2.0",
+    "twit": "^2.2.11"
+  }
+}
